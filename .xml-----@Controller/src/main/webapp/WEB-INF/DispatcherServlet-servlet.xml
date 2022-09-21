@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+	
+	<context:component-scan base-package="com.lim.biz.controller" />
+	<!-- 
+	HM 등록
+	<bean
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="/login.do">login</prop>
+				<prop key="/main.do">main</prop>
+				<prop key="/logout.do">logout</prop>
+				<prop key="/signin.do">signin</prop>
+				<prop key="/mypage.do">mypage</prop>
+				<prop key="/update.do">update</prop>
+				<prop key="/delete.do">delete</prop>
+				<prop key="/insert.do">insert</prop>
+			</props>
+		</property>
+	</bean>
+	
+	Controller
+	
+	<bean id="login" class="com.lim.biz.controller.LoginController" />
+	<bean id="logout" class="com.lim.biz.controller.LogoutController" />
+	<bean id="signin" class="com.lim.biz.controller.SigninController" />
+	<bean id="main" class="com.lim.biz.controller.MainController" />
+	<bean id="mypage" class="com.lim.biz.controller.MypageController" />
+	<bean id="update" class="com.lim.biz.controller.UpdateController" />
+	<bean id="delete" class="com.lim.biz.controller.DeleteController" />
+	<bean id="insert" class="com.lim.biz.controller.InsertController" />
+	
+	
+	ViewResolver
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/view/"/>
+		<property name="suffix" value=".jsp"/>
+	</bean> -->
+
+
+	
+
+	
+
+
+	
+</beans>
